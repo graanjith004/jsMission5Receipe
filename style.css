@@ -151,7 +151,12 @@
             object-fit: cover;
             border-radius: 10px;
             margin-bottom: 20px;
+            transition: transform 0.3s ease; 
         }
+
+        .modal-header img:hover {
+  transform: scale(1.2); /* 1.2 = 20% bigger on hover */
+}
 
         .modal-header h2 {
             color: #333;
